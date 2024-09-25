@@ -1,0 +1,6 @@
+com/coca2/OrderApplication.class
+com/coca2/feignToOtherMicro/FallBackFactory$1.class
+com/coca2/feignToOtherMicro/FallBackFactory.class
+com/coca2/model/Product.class
+com/coca2/feignToOtherMicro/ProductMicroFeign.class
+com/coca2/controller/orderController.class

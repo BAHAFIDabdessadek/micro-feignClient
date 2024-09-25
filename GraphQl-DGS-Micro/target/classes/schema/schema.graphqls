@@ -1,0 +1,23 @@
+type User{
+    id:ID!
+    name:String!
+    age:Int!
+}
+
+input  UserDto{
+    id:ID!
+    name:String!
+    age:Int!
+}
+type Query{
+    getUser(id:ID!):User
+}
+
+
+type Mutation{
+    addUser(userDto:UserDto!):User,
+
+}
+type Subscription{
+    userAdded:User
+}
